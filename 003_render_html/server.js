@@ -1,5 +1,6 @@
-var http = require("http");
+var http = require('http');
 var fs = require("fs");
+
 
 function onRequest(request, response) {
     response.writeHead(200, {'Content-Type': 'text/html'});
@@ -12,7 +13,7 @@ function onRequest(request, response) {
         }
         response.end();
     });
-    response.end();
+
 
 }
 
